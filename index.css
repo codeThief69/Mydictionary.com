@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.container{
+    padding: 10px;
+    background-color: rgb(59, 59, 59);
+}
+.header{
+  height: 80px;
+}
+
+.text{
+    color: white;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.value{
+    width: 80%;
+    outline: none;
+    border-radius: 30px;
+    padding: 7px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.searchBtn{
+    width: 37.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.mainDisplay{
+  height: 400px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.features{
+    display: flex;
+    height: 40px;
+    align-items: center;
+   
+}
+.voiceIcon{
+    margin-inline: 8px;
+}
+
+.display{
+    height: 350px;
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: solid white 1px;
+    color: white;
+    height: 200px;
+  
+}
+.footerText{
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+.footerIcon{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.footerIcon>ion-icon{
+    margin-inline: 6px;
+}
+.footerCopyright{
+    font-size: x-small;
+    margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+    .header{
+        height: 15vh;
+        padding: 10px;
+    }
+    .value{
+        width: 95%;
+    }
+    .searchBar{
+        margin-top: 20px;
+    }
+}
